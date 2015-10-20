@@ -4,25 +4,37 @@
 	width: 90%;
 	padding-top: 70px;
 }
+/*----------------------------------Navigation Bar ------------------------------------------------------*/
 .navbar-custom{
-	background-color: #2C3E50;
+	/*background-color: #2C3E50;*/
 	border-color: #FFFFFF;
 	color: #FFFFFF;
+	padding: 15px 100px 15px 0;
+	
+	
+	
+	background-color: #03031a;
+	background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4=);
+	
+	
 	
 }
 .navbar-custom .navbar-brand {
-	color: #FFFFFF;
+	color: #EC633F;
 	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	padding-left: 100px;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
-	color: #18BC9C;
+	color: #fff;
 	background-color: transparent;
+	
 }
 
 .navbar-custom .navbar-nav > li > a {
-	color: #FFFFFF;
+	color: #fff;
 }
 
 .navbar-custom .navbar-nav > .active > a,
@@ -44,3 +56,7 @@
 	background-color: #1A242F;
 	color: #FFFFFF;
 }
+/*------------------------------Home Section ------------------------------*/
+
+
+
