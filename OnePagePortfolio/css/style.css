@@ -1,7 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 .container{
-	width: 80%;
+	width: 90%;
+	padding-top: 70px;
 }
-.navbar{
-	background-image: none;
-	padding: 0px 5px 0px 10px;
+.navbar-custom{
+	background-color: #2C3E50;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	
+}
+.navbar-custom .navbar-brand {
+	color: #FFFFFF;
+	font-family: 'Lobster', cursive;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+	color: #18BC9C;
+	background-color: transparent;
+}
+
+.navbar-custom .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+	color: #FFFFFF;
+	background-color: #1A242F;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+	color: #18BC9C;
+	background-color: transparent;
+}
+
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+	background-color: #1A242F;
+	color: #FFFFFF;
 }
