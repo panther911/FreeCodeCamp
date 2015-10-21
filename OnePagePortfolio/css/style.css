@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-
+body{
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
 /*----------------------------------Navigation Bar ------------------------------------------------------*/
 .navbar-default{
 	/*background-color: #2C3E50;*/
@@ -48,6 +51,11 @@
 .navbar-default .navbar-nav > .open > a:focus {
 	background-color: #1A242F;
 	color: #FFFFFF;
+}
+.navbar-text > a{
+	
+	color: inherit;
+	text-decoration: none;
 }
 /*------------------------------Content-------------------------------------*/
 #content{
